@@ -2,8 +2,6 @@
 
 An AI-powered dynamic pricing engine that adjusts product prices in real time based on demand, inventory, competitor pricing, and seasonal trends.
 
-<p align="center"> <img src="https://img.shields.io/badge/React-18-blue" /> <img src="https://img.shields.io/badge/Reinforcement%20Learning-Q--Learning-purple" /> <img src="https://img.shields.io/badge/Status-Active-brightgreen" /> <img src="https://img.shields.io/badge/License-MIT-yellow" /> </p>
-
 📌 Overview
 
 This project demonstrates how Reinforcement Learning (RL) can be used to build a self-learning, intelligent dynamic pricing system. The RL agent interacts with a simulated market environment and learns to optimize price based on profitability.
@@ -155,4 +153,4 @@ Shivani Eltore
 AI/ML & Full-Stack Developer
 
 📝 License
-This project is open-source and available under the MIT License.
+MIT License © 2025 Shivani Eltore
