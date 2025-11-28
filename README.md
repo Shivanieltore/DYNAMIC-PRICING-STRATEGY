@@ -1,70 +1,158 @@
-# Getting Started with Create React App
+🚀 Dynamic Pricing Strategy Using Reinforcement Learning
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An AI-powered dynamic pricing engine that adjusts product prices in real time based on demand, inventory, competitor pricing, and seasonal trends.
 
-## Available Scripts
+<p align="center"> <img src="https://img.shields.io/badge/React-18-blue" /> <img src="https://img.shields.io/badge/Reinforcement%20Learning-Q--Learning-purple" /> <img src="https://img.shields.io/badge/Status-Active-brightgreen" /> <img src="https://img.shields.io/badge/License-MIT-yellow" /> </p>
 
-In the project directory, you can run:
+📌 Overview
 
-### `npm start`
+This project demonstrates how Reinforcement Learning (RL) can be used to build a self-learning, intelligent dynamic pricing system. The RL agent interacts with a simulated market environment and learns to optimize price based on profitability.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1.A React-based dashboard visualizes:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2.AI-generated dynamic price
 
-### `npm test`
+3.Profit calculations
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4.Price trend charts
 
-### `npm run build`
+5.RL training rewards
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6.Real-time demand & inventory adjustments
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📌 Features
+🔹 AI-Powered Dynamic Pricing
 
-### `npm run eject`
+Uses Reinforcement Learning to learn pricing strategies.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Adjusts price automatically based on demand, inventory, and competitor prices.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔹 Interactive Dashboard
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+View current AI-generated price suggestions.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Monitor profit, max profit, number of price updates, and training sessions.
 
-## Learn More
+🔹 Price Analytics Visualization
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Line chart displaying price and demand trends.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Auto-updates as market conditions change.
 
-### Code Splitting
+🔹 Reinforcement Learning Agent Panel
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Train the RL agent using trial-and-error learning.
 
-### Analyzing the Bundle Size
+View training rewards and session count.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🔹 Real-Time Market Inputs
 
-### Making a Progressive Web App
+Dynamic sliders for demand and inventory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Editable competitor pricing and base cost.
 
-### Advanced Configuration
+Seasonal mode selection (Normal, Festival, Off-Season).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🏗️ Tech Stack
+Frontend
 
-### Deployment
+React.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Tailwind CSS
 
-### `npm run build` fails to minify
+Chart.js / React Chart.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+JavaScript (ES6+)
+
+AI / Reinforcement Learning
+
+Custom RL Environment
+
+Q-Learning / DQN-based logic
+
+Reward-based training loop
+
+State Management
+
+React Context API
+
+🧠 How It Works
+
+The RL agent observes the environment (demand, stock, competitor price).
+
+It adjusts the price and receives a reward based on profit and behavior.
+
+Through training, it learns the optimal pricing strategy.
+
+The dashboard displays:
+
+AI suggested price
+
+Training results
+
+Price trends
+
+Real-time analytics
+
+📊 Model Metrics (Summary)
+
+Average Reward: ~6.8 / 10
+
+Profit Improvement vs Static Pricing: +45%
+
+Stable convergence after ~15–20 training sessions
+
+Accurate response to demand, inventory, and competitor price changes
+
+⚠️ Limitations
+
+Uses simulated market data
+
+Works for a single product only
+
+No real-time API integration
+
+Basic RL model (can be improved with advanced algorithms)
+
+🔮 Scope for Future Work
+
+Multi-product dynamic pricing
+
+Integration with real e-commerce APIs
+
+Advanced RL models (PPO, A3C, DDPG)
+
+User authentication and cloud backend
+
+More realistic customer behavior modeling
+<img width="1841" height="879" alt="Screenshot 2025-11-28 153007" src="https://github.com/user-attachments/assets/a1aaf4b9-7cc1-4306-b3a7-66667fd913fb" />
+<img width="1833" height="872" alt="Screenshot 2025-11-28 153016" src="https://github.com/user-attachments/assets/2dd1475c-f39e-4c55-87e4-9d7f8ab50d97" />
+<img width="1839" height="878" alt="Screenshot 2025-11-28 153034" src="https://github.com/user-attachments/assets/8597e934-c0c3-4736-be67-83539d19e286" />
+<img width="1861" height="873" alt="Screenshot 2025-11-28 153048" src="https://github.com/user-attachments/assets/d529b2e7-93d3-4b64-90da-4ffb3600e185" />
+
+📁 Project Structure
+frontend/
+│── src/
+│   ├── components/
+│   ├── context/
+│   ├── rl/
+│   ├── utils/
+│   ├── App.js
+│   └── index.js
+│── public/
+│── package.json
+│── tailwind.config.js
+
+▶️ How to Run the Project Locally
+cd frontend
+npm install
+npm start
+
+👩‍💻 Author
+
+Shivani Eltore
+AI/ML & Full-Stack Developer
+
+📝 License
+This project is open-source and available under the MIT License.
